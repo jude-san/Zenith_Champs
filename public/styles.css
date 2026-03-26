@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: #f3f4f7;
+  color: #1a1a1a;
+}
+
+.phone-frame {
+  max-width: 540px;
+  margin: 0 auto;
+  background: #fff;
+  min-height: 100vh;
+  border: 1px solid #ddd;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  border-bottom: 1px solid #ececec;
+}
+
+.top-bar h1 {
+  margin: 0;
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+.icon-btn {
+  border: 0;
+  background: transparent;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.members-chip {
+  margin: 16px;
+  width: fit-content;
+  background: #e8edf9;
+  color: #222;
+  padding: 10px 16px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.task-card,
+.info-card,
+.tags-section,
+.comment-section {
+  border-top: 1px solid #ececec;
+  padding: 16px 20px;
+}
+
+.task-card h2 {
+  margin: 0 0 10px;
+}
+
+.task-card h3 {
+  margin-bottom: 8px;
+}
+
+.muted {
+  color: #555;
+  margin-bottom: 4px;
+}
+
+#task-list {
+  margin-top: 0;
+  line-height: 1.5;
+}
+
+.acceptance {
+  border-bottom: 1px solid #222;
+  display: inline-block;
+  padding-bottom: 2px;
+}
+
+.tag {
+  display: inline-block;
+  background: #6488e3;
+  color: #16337d;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.hosting-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 12px;
+}
+
+.hosting-grid ul {
+  margin: 8px 0 0;
+  padding-left: 18px;
+}
+
+.comment-form {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.comment-form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.comment-form button {
+  border: 0;
+  background: #2d67d5;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+.comment {
+  background: #f7f8fb;
+  border: 1px solid #e7e8ee;
+  padding: 8px 10px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zenith Champs - Builderthon</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="phone-frame">
+      <header class="top-bar">
+        <button class="icon-btn" aria-label="Close">✕</button>
+        <h1>Database Deployment</h1>
+        <button class="icon-btn" aria-label="More options">⋮</button>
+      </header>
+
+      <section class="members-chip">
+        <span class="avatar">👤</span>
+        <span>Members</span>
+      </section>
+
+      <section class="task-card">
+        <h2 id="task-title">Deploy cloud database</h2>
+        <p class="muted">Suggested options</p>
+        <p id="suggested-options"></p>
+        <h3>Tasks</h3>
+        <ul id="task-list"></ul>
+        <h3>Acceptance Criteria</h3>
+        <p id="acceptance-criteria" class="acceptance"></p>
+      </section>
+
+      <section class="tags-section">
+        <span class="tag">DevOps</span>
+      </section>
+
+      <section class="info-card">
+        <h3>Interswitch Usage in this project</h3>
+        <p id="interswitch-use"></p>
+        <h3>Free hosting recommendations</h3>
+        <div class="hosting-grid">
+          <div>
+            <strong>Frontend</strong>
+            <ul id="hosting-frontend"></ul>
+          </div>
+          <div>
+            <strong>Backend</strong>
+            <ul id="hosting-backend"></ul>
+          </div>
+          <div>
+            <strong>Database</strong>
+            <ul id="hosting-database"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="comment-section">
+        <div id="comments"></div>
+        <form id="comment-form" class="comment-form">
+          <input id="comment-input" name="text" type="text" placeholder="Add comment" required />
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+  </html>

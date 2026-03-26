@@ -1,0 +1,60 @@
+{
+  "members": [
+    {
+      "id": "1",
+      "name": "DevOps",
+      "role": "Member",
+      "avatar": "⚙️"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-1",
+      "title": "Deploy cloud database",
+      "suggestedOptions": [
+        "Supabase",
+        "Firebase"
+      ],
+      "checklist": [
+        "Create tables",
+        "Seed provider data",
+        "Connect API (Use Interswitch's Resources)",
+        "Ensure backend redeploy after schema update",
+        "Update environment variables if needed",
+        "Test API connectivity for payment endpoint",
+        "Monitor logs during payment flow testing"
+      ],
+      "acceptanceCriteria": "Backend connected to live database.",
+      "tags": [
+        "DevOps"
+      ],
+      "comments": [
+        {
+          "id": "1774521891929",
+          "text": "Looks good",
+          "author": "Member",
+          "createdAt": "2026-03-26T10:44:51.929Z"
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "interswitchUse": "Use Interswitch for payment collection endpoints and transaction status verification in the backend API.",
+    "freeHosting": {
+      "frontend": [
+        "Netlify",
+        "Vercel",
+        "Cloudflare Pages"
+      ],
+      "backend": [
+        "Render (free tier)",
+        "Railway trial",
+        "Fly.io free allowance"
+      ],
+      "database": [
+        "Supabase free tier",
+        "Firebase Spark plan"
+      ]
+    }
+  }
+}
