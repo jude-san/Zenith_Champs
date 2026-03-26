@@ -1,0 +1,22 @@
+{
+  "name": "zenith_champs",
+  "version": "1.0.0",
+  "description": "Builderthon",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jude-san/Zenith_Champs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jude-san/Zenith_Champs/issues"
+  },
+  "homepage": "https://github.com/jude-san/Zenith_Champs#readme"
+}
